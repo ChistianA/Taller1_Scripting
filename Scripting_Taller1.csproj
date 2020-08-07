@@ -44,17 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Affinity.cs" />
-    <Compile Include="AtkUp.cs" />
-    <Compile Include="AttackSkill.cs" />
     <Compile Include="Critters.cs" />
-    <Compile Include="DefUp.cs" />
     <Compile Include="Moveset.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skill.cs" />
-    <Compile Include="SpdDwn.cs" />
-    <Compile Include="​SupportSkill.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

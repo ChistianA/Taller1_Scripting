@@ -9,6 +9,13 @@ namespace Scripting_Taller1
     public class Player
     {
         private string name;
-        private List<Critters> myCritters;
+        private Critters[] myCritters;
+
+        //Builder
+        public Player()
+        {
+            myCritters = new Critters[3];
+        }
+
     }
 }

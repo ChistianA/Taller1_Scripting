@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,12 +11,12 @@ namespace Scripting_Taller1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Critters.affinity);
-            Console.WriteLine(Critters.affinity);
-            Console.WriteLine(Critters.affinity);
-            Console.WriteLine(Critters.affinity);
-            Console.WriteLine(Critters.affinity);
+            
 
+        }
+        public void Combat(Critters myCritter, Critters enemyCritter)
+        {
+            myCritter;
         }
     }
 }

@@ -11,10 +11,6 @@ namespace Scripting_Taller1
         //Attributes
         static public string name;
         List<Skill> skills;
-        private AttackSkill attackSkill;
-        private AtkUp atkUp;
-        private DefUp defUp;
-        private SpdDwn spdDwn;
 
         string[] names = { "Pikachu", "Charmander", "Peckle", "Onion", "Mewtwo", "Magicarp" };
         string[] affinities = { "Dark", "Light", "Fire", "Water", "Wind", "Earth" };
@@ -45,29 +41,8 @@ namespace Scripting_Taller1
 
         public void AsignSkills(Skill skill)
         {
-            for (int i = 0; i < 3; i++)
-            {
-                int numSkill = random.Next(4);
-                switch (numSkill)
-                {
-                    case 0:
-                        atkUp = skill as AtkUp;
-                        skills.Add(atkUp);
-                        break;
-                    case 1:
-                        defUp = skill as DefUp;
-                        skills.Add(defUp);
-                        break;
-                    case 2:
-                        spdDwn = skill as SpdDwn;
-                        skills.Add(spdDwn);
-                        break;
-                    case 3:
-                        attackSkill = skill as AttackSkill;
-                        skills.Add(attackSkill);
-                        break;
-                }
-            }
+            
         }
+        
     }
 }

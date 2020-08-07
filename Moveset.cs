@@ -8,6 +8,13 @@ namespace Scripting_Taller1
 {
     class Moveset : Player
     {
-        List<Skill> skills;
+        public void Attack(Critters myCritter, Critters enemyCritter)
+        {
+
+        }
+        public void Defense()
+        {
+
+        }
     }
 }
