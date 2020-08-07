@@ -16,7 +16,7 @@ namespace Scripting_Taller1
         string[] affinities = { "Dark", "Light", "Fire", "Water", "Wind", "Earth" };
         Random random = new Random();
         static public string affinity;
-        static public int baseAttack, 
+        static public float baseAttack, 
             baseDefense, 
             baseSpeed, 
             hp;
@@ -33,10 +33,10 @@ namespace Scripting_Taller1
         }
 
         public string Name { get => name; set => name = value; }
-        public int BaseAttack { get => baseAttack; }
-        public int BaseDefense { get => baseDefense; }
-        public int BaseSpeed { get => baseSpeed; }
-        public int HP { get => hp; }
+        public float BaseAttack { get => baseAttack; }
+        public float BaseDefense { get => baseDefense; }
+        public float BaseSpeed { get => baseSpeed; }
+        public float HP { get => hp; }
         public string Affinity { get => affinity;}
 
         public void AsignSkills(Skill skill)

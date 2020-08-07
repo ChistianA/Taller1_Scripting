@@ -16,7 +16,6 @@ namespace Scripting_Taller1
         }
         public void Combat(Critters myCritter, Critters enemyCritter)
         {
-            myCritter;
         }
     }
 }

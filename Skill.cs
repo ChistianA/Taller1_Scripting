@@ -14,6 +14,10 @@ namespace Scripting_Taller1
         Random random = new Random();
         static public string skillName;
         string skillAffinity;
+        string[] typeSkills = { "AtkUp", "DefUp", "SpdDwn" };
+        string typeSkill;
+        float bonus;
+        int enemySpeed;
 
         //Builder
         public Skill()
@@ -21,30 +25,28 @@ namespace Scripting_Taller1
             name = skillNames[random.Next(6)];
             skillAffinity = Critters.affinity;
             power = random.Next(1, 11);
+            typeSkill = typeSkills[random.Next(3)];
         }
 
-        public float SupportSkillAtkUp(float baseAttack)
+        public float SupportSkill()
         {
-            power = 0;
-            float atkUp;
-            atkUp = baseAttack * 0.2f;
-            return atkUp;
-        }
+            switch (typeSkill)
+            {
+                case "AtkUp":
+                    power = 0;
+                    bonus = baseAttack * 0.2f;
+                    break;
+                case "DefUp":
+                    power = 0;
+                    bonus = baseDefense * 0.2f;
+                    break;
+                case "SpdDwn":
+                    power = 0;
+                    bonus = enemySpeed * 0.2f;
+                    break;
+            }
 
-        public float SupportSkillDefUp(float baseDefense)
-        {
-            power = 0;
-            float atkUp;
-            atkUp = baseDefense * 0.2f;
-            return atkUp;
-        }
-
-        public float SupportSkillSpdDwn(float enemySpeed)
-        {
-            power = 0;
-            float spdDwn;
-            spdDwn = enemySpeed * 0.3f;
-            return spdDwn;
+            return bonus;
         }
 
         public float AffinityMultiplier(float baseAttack, float skillPower, string myAffinity, string targetAffinity)
