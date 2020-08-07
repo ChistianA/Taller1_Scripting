@@ -8,5 +8,6 @@ namespace Scripting_Taller1
 {
     class Moveset : Player
     {
+        List<Skill> skills;
     }
 }
