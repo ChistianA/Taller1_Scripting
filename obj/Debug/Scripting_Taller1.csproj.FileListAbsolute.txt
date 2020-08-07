@@ -1,0 +1,7 @@
+C:\Users\Ambra\source\repos\Scripting_Taller1\bin\Debug\Scripting_Taller1.exe.config
+C:\Users\Ambra\source\repos\Scripting_Taller1\bin\Debug\Scripting_Taller1.exe
+C:\Users\Ambra\source\repos\Scripting_Taller1\bin\Debug\Scripting_Taller1.pdb
+C:\Users\Ambra\source\repos\Scripting_Taller1\obj\Debug\Scripting_Taller1.csprojAssemblyReference.cache
+C:\Users\Ambra\source\repos\Scripting_Taller1\obj\Debug\Scripting_Taller1.csproj.CoreCompileInputs.cache
+C:\Users\Ambra\source\repos\Scripting_Taller1\obj\Debug\Scripting_Taller1.exe
+C:\Users\Ambra\source\repos\Scripting_Taller1\obj\Debug\Scripting_Taller1.pdb

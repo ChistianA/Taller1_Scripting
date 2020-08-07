@@ -10,6 +10,9 @@ namespace Scripting_Taller1
     {
         static void Main(string[] args)
         {
+            string[] names = { "Pikachu", "Charmander", "Pepino", "Cebolla", "Mewtwo", "Magicarp" };
+            int[] affinities = { 1, 2, 3, 4, 5, 6 };
+            Random random = new Random();
         }
     }
 }
